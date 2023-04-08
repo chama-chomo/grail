@@ -1,4 +1,4 @@
-# Everforest.nvim
+# Grail.nvim
 
 Pleasant on eyes [grail](https://github.com/chama-chomo/grail) colour
 scheme. 
