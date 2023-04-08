@@ -23,6 +23,7 @@ local base_palette = {
 		fgdark = "#B19565",
 		pink1 = "#B04D4E",
 		red = "#DF5B51",
+		reddull = "#AC9C7D",
 		orange = "#B17B1E",
 		yellow = "#ACA67D",
 		yellowlight = "#C0BF45",
@@ -80,6 +81,7 @@ local base_palette = {
 ---@field yellow string
 ---@field yellowlight string
 ---@field red string
+---@field reddull string
 ---@field green string
 ---@field green2 string
 ---@field green3 string
