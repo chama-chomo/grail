@@ -23,11 +23,11 @@ local base_palette = {
 		fgdark = "#AC9469",
 		pink1 = "#B04D4E",
 		red = "#B57A6A",
-		reddull = "#676D5F",
-		orange = "#B17B1E",
-		yellow = "#B2B140",
-		yellowlight = "#C0BF45",
-		green = "#85995E",
+		orange = "#D0A429",
+		orangedull = "#B19B5F",
+		yellow = "#BFB240",
+		yellowlight = "#D2D371",
+		green = "#8CA35A",
 		green2 = "#3C6055",
 		green3 = "#96B38F",
 		pinkdark = "#B29F78",
@@ -52,6 +52,7 @@ local base_palette = {
 		grey8 = "#B0B29B",
 		grey9 = "#BABCA4",
 		grey10 = "#C5C7AD",
+		grey11 = "#CED0B5",
 		statusline1 = "#6EBB9F",
 		statusline2 = "#D3B980",
 		statusline3 = "#E65255",
@@ -78,10 +79,10 @@ local base_palette = {
 ---@field purpledark string
 ---@field pinklight string
 ---@field orange string
+---@field orangedull string
 ---@field yellow string
 ---@field yellowlight string
 ---@field red string
----@field reddull string
 ---@field green string
 ---@field green2 string
 ---@field green3 string
@@ -105,6 +106,7 @@ local base_palette = {
 ---@field grey8 string
 ---@field grey9 string
 ---@field grey10 string
+---@field grey11 string
 ---@field statusline1 string
 ---@field statusline2 string
 ---@field statusline3 string
