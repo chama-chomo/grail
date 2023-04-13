@@ -23,10 +23,10 @@ local base_palette = {
 		fgdark = "#AC9469",
 		pink1 = "#B04D4E",
 		red = "#B57A6A",
-		orange = "#D8A200",
+		orange = "#D09C00",
 		orangedull = "#B19B5F",
 		yellow = "#C2B11B",
-		yellowlight = "#C0C167",
+		yellowlight = "#BCBD65",
 		green = "#86A44F",
 		green2 = "#3C6055",
 		green3 = "#96B38F",
@@ -34,6 +34,7 @@ local base_palette = {
 		pinklight = "#E65154",
 		aqua = "#33B1A6",
 		blue = "#338E9F",
+		yellowgrey = "#A6A471",
 		blue2 = "#B2A77A",
 		blue3 = "#44728A",
 		blue4 = "#7D9196",
@@ -89,6 +90,7 @@ local base_palette = {
 ---@field aqua string
 ---@field pinkdark string
 ---@field blue string
+---@field yellowgrey string
 ---@field blue2 string
 ---@field blue3 string
 ---@field blue4 string
