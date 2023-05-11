@@ -712,9 +712,9 @@ highlights.generate_syntax = function(palette, options)
 		GitSignsDeleteLn = { link = "DiffDelete" },
 		GitSignsCurrentLineBlame = { link = "Grey" },
 		-- phaazon/hop.nvim
-		HopNextKey = syntax_entry(palette.bg0, palette.pinkdark, { styles.bold }),
-		HopNextKey1 = syntax_entry(palette.bg0, palette.pinkdark, { styles.bold }),
-		HopNextKey2 = syntax_entry(palette.bg0, palette.yellow, { styles.bold }),
+		HopNextKey = syntax_entry(palette.yellow, palette.none, { styles.bold }),
+		HopNextKey1 = syntax_entry(palette.yellow, palette.none, { styles.bold }),
+		HopNextKey2 = syntax_entry(palette.pinkdark, palette.none, { styles.bold }),
 		HHopUnmatched = syntax_entry(palette.bg4, palette.none, { styles.bold }),
 		-- ggandor/leap.nvim
 		LeapMatch = syntax_entry(palette.fg, palette.purple, { styles.bold }),
