@@ -2,16 +2,16 @@ local M = {}
 
 local hard_background = {
 	dark = {
-		bg_dim = "#1D2224",
-		bg0 = "#1D2224",
-		bg1 = "#21272A",
-		bg2 = "#282F32",
-		bg3 = "#30383C",
-		bg4 = "#394247",
-		bg5 = "#3F494E",
-		bg_visual = "#282f35",
+		bg_dim = "#201626",
+		bg0 = "#141F26",
+		bg1 = "#1B282E",
+		bg2 = "#202F36",
+		bg3 = "#24353D",
+		bg4 = "#24363F",
+		bg5 = "#2D424C",
+		bg_visual = "#3C5865",
 		bg_red = "#493b40",
-		bg_green = "#3f4841",
+		bg_green = "#3c4841",
 		bg_blue = "#384b55",
 		bg_yellow = "#45443c",
 	},
@@ -19,45 +19,31 @@ local hard_background = {
 
 local base_palette = {
 	dark = {
-		fg = "#B4B5A7",
-		fgdark = "#AC9469",
-		pink1 = "#B04D4E",
-		red = "#B57A6A",
-		orange = "#CB9800",
-		orangedull = "#D0B35C",
-		yellow = "#C2B11B",
-		yellowlight = "#BCBD65",
-		green = "#86A44F",
-		green2 = "#5B9281",
-		green3 = "#96B38F",
-		pinkdark = "#D3859B",
-		pinklight = "#E65154",
-		aqua = "#33B1A6",
-		blue = "#338E9F",
-		yellowgrey = "#6D6048",
-		blue1 = "#91B7AD",
-		blue2 = "#305061",
-		blue3 = "#44728A",
-		blue4 = "#7D9196",
-		blue5 = "#819EAD",
-		purple = "#7075B2",
-		purpledark = "#836AA3",
-		grey = "#4F5045",
-		grey0 = "#616255",
-		grey1 = "#6C6D5F",
-		grey2 = "#797A6A",
-		grey3 = "#828372",
-		grey4 = "#8B8C7A",
-		grey5 = "#979985",
-		grey6 = "#A0A28D",
-		grey7 = "#A7A993",
-		grey8 = "#B0B29B",
-		grey9 = "#BABCA4",
-		grey10 = "#C5C7AD",
-		grey11 = "#CED0B5",
-		statusline1 = "#6EBB9F",
-		statusline2 = "#D3B980",
-		statusline3 = "#E65255",
+		fg = "#B7AF9A",
+		fgdark = "#B1A288",
+		pink1 = "#B06E6F",
+		red = "#C0443B",
+		orange = "#B98A6A",
+		yellow = "#958B4B",
+		yellowlight = "#DAD04E",
+		green = "#829068",
+		pinkdark = "#B2A68D",
+		pinklight = "#e67e80",
+		aqua = "#56B1A9",
+		blue = "#52939F",
+		blue2 = "#4A7F8D",
+		blue3 = "#438995",
+		blue4 = "#7F9196",
+		purple = "#AA9DBA",
+		purpledark = "#958AA3",
+		grey0 = "#5B645C",
+		grey1 = "#677268",
+		grey2 = "#859289",
+		grey3 = "#9da9a0",
+		grey4 = "#B7C5BA",
+		statusline1 = "#94BBAD",
+		statusline2 = "#d3c6aa",
+		statusline3 = "#e67e80",
 		none = "NONE",
 	},
 }
@@ -81,35 +67,22 @@ local base_palette = {
 ---@field purpledark string
 ---@field pinklight string
 ---@field orange string
----@field orangedull string
 ---@field yellow string
 ---@field yellowlight string
 ---@field red string
 ---@field green string
----@field green2 string
----@field green3 string
 ---@field aqua string
 ---@field pinkdark string
 ---@field blue string
----@field yellowgrey string
 ---@field blue2 string
 ---@field blue3 string
 ---@field blue4 string
----@field blue5 string
 ---@field purple string
----@field grey string
 ---@field grey0 string
 ---@field grey1 string
 ---@field grey2 string
 ---@field grey3 string
 ---@field grey4 string
----@field grey5 string
----@field grey6 string
----@field grey7 string
----@field grey8 string
----@field grey9 string
----@field grey10 string
----@field grey11 string
 ---@field statusline1 string
 ---@field statusline2 string
 ---@field statusline3 string
