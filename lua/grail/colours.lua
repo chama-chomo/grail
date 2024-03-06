@@ -2,14 +2,14 @@ local M = {}
 
 local hard_background = {
 	dark = {
-		bg_dim = "#1D2224",
-		bg0 = "#1D2224",
-		bg1 = "#21272A",
-		bg2 = "#282F32",
-		bg3 = "#30383C",
-		bg4 = "#394247",
-		bg5 = "#3F494E",
-		bg_visual = "#282f35",
+		bg_dim = "#202125",
+		bg0 = "#242629",
+		bg1 = "#292B2F",
+		bg2 = "#323439",
+		bg3 = "#3B3E44",
+		bg4 = "#44474E",
+		bg5 = "#4F525A",
+		bg_visual = "#2E2F2F",
 		bg_red = "#493b40",
 		bg_green = "#3f4841",
 		bg_blue = "#384b55",
@@ -19,42 +19,43 @@ local hard_background = {
 
 local base_palette = {
 	dark = {
-		fg = "#B4B5A7",
-		fgdark = "#AC9469",
-		pink1 = "#B04D4E",
-		red = "#B57A6A",
-		orange = "#CB9800",
-		orangedull = "#D0B35C",
+		fg = "#D9D8C0",
+		fgdark = "#BEBE9D",
+		red = "#CF6F67",
+		redlight = "#C68884",
+		orange = "#FDBC00",
+		orangedull = "#BEAA6E",
 		yellow = "#C2B11B",
 		yellowlight = "#BCBD65",
-		green = "#86A44F",
+		green = "#9AB157",
 		green2 = "#5B9281",
 		green3 = "#96B38F",
+		pink1 = "#B04D4E",
 		pinkdark = "#D3859B",
-		pinklight = "#E65154",
+		pinklight = "#B97E8B",
 		aqua = "#33B1A6",
 		blue = "#338E9F",
 		yellowgrey = "#6D6048",
-		blue1 = "#91B7AD",
+		blue1 = "#80B29D",
 		blue2 = "#305061",
 		blue3 = "#44728A",
 		blue4 = "#7D9196",
 		blue5 = "#819EAD",
-		purple = "#7075B2",
+		blue6 = "#6593A3",
+		purple = "#9EA1C6",
 		purpledark = "#836AA3",
-		grey = "#4F5045",
-		grey0 = "#616255",
-		grey1 = "#6C6D5F",
-		grey2 = "#797A6A",
-		grey3 = "#828372",
-		grey4 = "#8B8C7A",
-		grey5 = "#979985",
-		grey6 = "#A0A28D",
-		grey7 = "#A7A993",
-		grey8 = "#B0B29B",
-		grey9 = "#BABCA4",
-		grey10 = "#C5C7AD",
-		grey11 = "#CED0B5",
+		grey0 = "#515147",
+		grey1 = "#616154",
+		grey2 = "#6F6F5F",
+		grey3 = "#7D7D69",
+		grey4 = "#8D8D74",
+		grey5 = "#9A9A7E",
+		grey6 = "#A59E87",
+		grey7 = "#B1AB97",
+		grey8 = "#BBB6A4",
+		grey9 = "#C7C3B4",
+		grey10 = "#D9D8C0",
+		grey11 = "#DDDAD1",
 		statusline1 = "#6EBB9F",
 		statusline2 = "#D3B980",
 		statusline3 = "#E65255",
@@ -85,6 +86,7 @@ local base_palette = {
 ---@field yellow string
 ---@field yellowlight string
 ---@field red string
+---@field redlight string
 ---@field green string
 ---@field green2 string
 ---@field green3 string
@@ -92,10 +94,12 @@ local base_palette = {
 ---@field pinkdark string
 ---@field blue string
 ---@field yellowgrey string
+---@field blue1 string
 ---@field blue2 string
 ---@field blue3 string
 ---@field blue4 string
 ---@field blue5 string
+---@field blue6 string
 ---@field purple string
 ---@field grey string
 ---@field grey0 string
