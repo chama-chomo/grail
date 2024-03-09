@@ -2,15 +2,16 @@ local M = {}
 
 local hard_background = {
 	dark = {
-		bg_dim = "#202125",
-		bg0 = "#242629",
-		bg1 = "#292B2F",
-		bg2 = "#323439",
-		bg3 = "#3B3E44",
-		bg4 = "#44474E",
-		bg5 = "#4F525A",
-		bg_visual = "#2E2F2F",
-		bg_red = "#493b40",
+		bg_dim = "#1E2024",
+		bg0 = "#222327",
+		bg1 = "#292A2F",
+		bg2 = "#303137",
+		bg3 = "#383940",
+		bg4 = "#3F4148",
+		bg5 = "#494B53",
+		bg_visual = "#31475E",
+		bg_red = "#5E4141",
+		bg_violet = "#795578",
 		bg_green = "#3f4841",
 		bg_blue = "#384b55",
 		bg_yellow = "#45443c",
@@ -19,27 +20,27 @@ local hard_background = {
 
 local base_palette = {
 	dark = {
-		fg = "#D9D8C0",
+		fg = "#C7C3B4",
 		fgdark = "#BEBE9D",
-		red = "#CF6F67",
-		redlight = "#C68884",
-		orange = "#FDBC00",
+		pink1 = "#CF6F67",
+		pinkdark = "#B57091",
+		pinklight = "#B97E8B",
+		orange = "#D7A926",
 		orangedull = "#BEAA6E",
 		yellow = "#C2B11B",
 		yellowlight = "#BCBD65",
 		green = "#9AB157",
 		green2 = "#5B9281",
 		green3 = "#96B38F",
-		pink1 = "#B04D4E",
-		pinkdark = "#D3859B",
-		pinklight = "#B97E8B",
+		red = "#BC6667",
+		redlight = "#D07F7A",
 		aqua = "#33B1A6",
 		blue = "#338E9F",
 		yellowgrey = "#6D6048",
-		blue1 = "#80B29D",
+		blue1 = "#7D999A",
 		blue2 = "#305061",
 		blue3 = "#44728A",
-		blue4 = "#7D9196",
+		blue4 = "#3A5A6A",
 		blue5 = "#819EAD",
 		blue6 = "#6593A3",
 		purple = "#9EA1C6",
@@ -51,11 +52,11 @@ local base_palette = {
 		grey4 = "#8D8D74",
 		grey5 = "#9A9A7E",
 		grey6 = "#A59E87",
-		grey7 = "#B1AB97",
-		grey8 = "#BBB6A4",
-		grey9 = "#C7C3B4",
-		grey10 = "#D9D8C0",
-		grey11 = "#DDDAD1",
+		grey7 = "#B1AB96",
+		grey8 = "#BDB8A6",
+		grey9 = "#CAC6B7",
+		grey10 = "#D5D3B9",
+		grey11 = "#DDDBC6",
 		statusline1 = "#6EBB9F",
 		statusline2 = "#D3B980",
 		statusline3 = "#E65255",
@@ -73,6 +74,7 @@ local base_palette = {
 ---@field bg5 string
 ---@field bg_visual string
 ---@field bg_red string
+---@field bg_violet string
 ---@field bg_green string
 ---@field bg_blue string
 ---@field bg_yellow string
