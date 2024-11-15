@@ -255,7 +255,7 @@ highlights.generate_syntax = function(palette, options)
 		BlueSign = syntax_entry(palette.blue, colour_respecting_options(palette.bg0)),
 		PurpleSign = syntax_entry(palette.purple, colour_respecting_options(palette.bg0)),
 		-- Configuration based on `diagnostic_text_highlight` option
-		ErrorText = syntax_entry(palette.none, palette.none, { styles.undercurl }, palette.pink1),
+		ErrorText = syntax_entry(palette.none, palette.bg_red, { styles.undercurl }, palette.pink1),
 		WarningText = syntax_entry(palette.none, palette.none, { styles.undercurl }, palette.yellow),
 		InfoText = syntax_entry(palette.none, palette.none, { styles.undercurl }, palette.blue),
 		HintText = syntax_entry(palette.none, palette.none, { styles.undercurl }, palette.green),
@@ -306,7 +306,7 @@ highlights.generate_syntax = function(palette, options)
 		TSConstBuiltin = { link = "Type" },
 		TSConstMacro = { link = "PurpleItalic" },
 		TSConstant = { link = "Constant" },
-		TSConstructor = { link = "Green" },
+		-- TSConstructor = { link = "Green" },
 		TSDebug = { link = "Debug" },
 		TSDefine = { link = "Define" },
 		TSEnvironment = { link = "Macro" },
@@ -663,8 +663,8 @@ highlights.generate_syntax = function(palette, options)
 		BookmarkLine = { link = "DiffChange" },
 		BookmarkAnnotationLine = { link = "DiffAdd" },
 		-- hrsh7th/nvim-cmp
-		CmpItemAbbrMatch = syntax_entry(palette.grey8, palette.none, { styles.bold }),
-		CmpItemAbbrMatchFuzzy = syntax_entry(palette.grey6, palette.none, { styles.bold }),
+		CmpItemAbbrMatch = syntax_entry(palette.orangedull, palette.none, { styles.bold }),
+		CmpItemAbbrMatchFuzzy = syntax_entry(palette.orangedull, palette.none, { styles.bold }),
 		CmpItemAbbr = { link = "Fg" },
 		CmpItemAbbrDeprecated = { link = "Grey" },
 		CmpItemMenu = { link = "Fg" },
@@ -1054,6 +1054,10 @@ highlights.generate_syntax = function(palette, options)
 		netrwHelpCmd = { link = "Blue" },
 		netrwCmdSep = { link = "Grey" },
 		netrwVersion = { link = "Orange" },
+		-- tiny diagnostics
+		TinyInlineDiagnosticVirtualTextError = syntax_entry(palette.fg, palette.red, { styles.bold }),
+		TinyInlineDiagnosticVirtualTextBg = syntax_entry(palette.fg, palette.blue, { styles.bold }),
+
 		-- https://github.com/mhinz/vim-startify
 		StartifyBracket = { link = "Grey" },
 		StartifyFile = { link = "Fg" },
@@ -1426,7 +1430,7 @@ highlights.generate_syntax = function(palette, options)
 		zshVariableDef = { link = "Blue" },
 		-- VimL
 		vimLet = { link = "Orange" },
-		vimFunction = { link = "Green" },
+		vimFunction = { link = "Red" },
 		vimIsCommand = { link = "Fg" },
 		vimUserFunc = { link = "Green" },
 		vimFuncName = { link = "Green" },
