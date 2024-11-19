@@ -847,7 +847,7 @@ highlights.generate_syntax = function(palette, options)
 		MiniCompletionActiveParameter = { link = "LspSignatureActiveParameter" },
 		MiniCursorword = { link = "CurrentWord" },
 		MiniCursorwordCurrent = { link = "CurrentWord" },
-		MiniIndentscopeSymbol = syntax_entry(palette.blue4, palette.none),
+		MiniIndentscopeSymbol = syntax_entry(palette.bg4, palette.none),
 		MiniIndentscopeSymbolOff = { link = "Yellow" },
 		MiniJump = { link = "Search" },
 		MiniStarterFooter = { link = "Orange" },
