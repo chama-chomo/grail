@@ -1075,6 +1075,9 @@ highlights.generate_syntax = function(palette, options)
 		QuickmenuHelp = { link = "Green" },
 		QuickmenuSpecial = { link = "Purple" },
 		QuickmenuHeader = { link = "Orange" },
+		-- treesitter-context
+		TreesitterContext = syntax_entry(palette.fg, palette.bg5, { styles.bold }),
+		TreesitterContextSeparator = syntax_entry(palette.grey2, palette.bg5, { styles.bold }),
 		-- mbbill/undotree
 		UndotreeSavedBig = syntax_entry(palette.purple, palette.none, { styles.bold }),
 		UndotreeNode = { link = "Orange" },
