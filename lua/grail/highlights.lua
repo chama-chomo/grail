@@ -89,9 +89,9 @@ highlights.generate_syntax = function(palette, options)
 		NonText = syntax_entry(palette.bg4, palette.none),
 		Whitespace = syntax_entry(palette.bg4, palette.none),
 		SpecialKey = syntax_entry(palette.bg3, palette.none),
-		Pmenu = syntax_entry(palette.fg, palette.bg4),
-		PmenuSbar = syntax_entry(palette.none, palette.bg4),
-		PmenuSel = syntax_entry(palette.none, palette.grey3),
+		Pmenu = syntax_entry(palette.fg, palette.bg3),
+		PmenuSbar = syntax_entry(palette.none, palette.bg3),
+		PmenuSel = syntax_entry(palette.none, palette.grey0),
 		WildMenu = { link = "PmenuSel" },
 		PmenuThumb = syntax_entry(palette.none, palette.grey0),
 		NormalFloat = syntax_entry(palette.grey8, palette.bg2),
@@ -1076,8 +1076,8 @@ highlights.generate_syntax = function(palette, options)
 		QuickmenuSpecial = { link = "Purple" },
 		QuickmenuHeader = { link = "Orange" },
 		-- treesitter-context
-		TreesitterContext = syntax_entry(palette.fg, palette.bg5, { styles.bold }),
-		TreesitterContextSeparator = syntax_entry(palette.grey2, palette.bg5, { styles.bold }),
+		TreesitterContext = syntax_entry(palette.fg, palette.bg3, { styles.bold }),
+		TreesitterContextSeparator = syntax_entry(palette.grey2, palette.bg3, { styles.bold }),
 		-- mbbill/undotree
 		UndotreeSavedBig = syntax_entry(palette.purple, palette.none, { styles.bold }),
 		UndotreeNode = { link = "Orange" },
